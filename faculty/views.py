@@ -2,6 +2,7 @@ from rest_framework import viewsets, permissions, status
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from django.db.models import Count, Avg
+from django.utils import timezone
 from .models import Faculty, FacultyQualification, FacultyLeave
 from .serializers import FacultySerializer, FacultyQualificationSerializer, FacultyLeaveSerializer
 
