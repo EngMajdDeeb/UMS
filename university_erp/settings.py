@@ -59,6 +59,7 @@ TENANT_APPS = [
     'rest_framework',
     'corsheaders',
     'djoser',
+    'crequest',  # Required by django-erp-framework
     'erp_framework',
     
     # Your tenant-specific apps
