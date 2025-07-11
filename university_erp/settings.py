@@ -89,6 +89,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'crequest.middleware.CrequestMiddleware',  # Required by django-erp-framework
 ]
 
 ROOT_URLCONF = 'university_erp.urls'
