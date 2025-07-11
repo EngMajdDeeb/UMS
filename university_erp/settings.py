@@ -117,7 +117,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django_tenants.postgresql_backend',
         'NAME': 'university_erp',
-        'USER': 'postgres',
+        'USER': 'django_user',
         'PASSWORD': 'password',
         'HOST': 'localhost',
         'PORT': '5432',
