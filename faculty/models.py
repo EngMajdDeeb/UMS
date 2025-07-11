@@ -41,7 +41,7 @@ class Faculty(models.Model):
     office_location = models.CharField(max_length=100, blank=True)
     office_phone = models.CharField(max_length=20, blank=True)
     specialization = models.CharField(max_length=200)
-    qualifications = models.TextField()
+    education_qualifications = models.TextField()
     experience_years = models.IntegerField(default=0)
     salary = models.DecimalField(max_digits=10, decimal_places=2, null=True, blank=True)
     status = models.CharField(max_length=20, choices=STATUS_CHOICES, default='active')
